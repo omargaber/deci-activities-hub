@@ -55,5 +55,3 @@ function displayInfo(){
     }
     fetchData()
 }
-
-displayInfo()

@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>DECI User Fetch</title>
-    <link rel="stylesheet" href="assets/stylesheets/reset.css">
+    <!-- <link rel="stylesheet" href="assets/stylesheets/reset.css">
     <link rel="stylesheet" href="assets/stylesheets/index.css">
-    <link rel="stylesheet" href="assets/stylesheets/home.css">
+    <link rel="stylesheet" href="assets/stylesheets/home.css"> -->
 </head>
 
 <body>
@@ -18,9 +18,17 @@
         <section>
             <h2>This page is used to fetch the user data</h2>
             <h3>Use the below button for the user data retrieval</h3>
-            <a class="button" href="/users">Fetch the users</a>
+            <a class="button" href="../pages/user.html" onclick = "displayInfo()">Fetch the users</a>
+        </section>
+        <section>
+            <table id="myTable" border="1">
+                <tbody>
+
+                </tbody>
+            </table>
         </section>
     </main>
     <footer></footer>
+    <script src="../pages/app.js"></script>
 </body>
 </html>

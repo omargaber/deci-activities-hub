@@ -25,7 +25,6 @@ function displayInfo(){
                 const daft = new Users(users.users[i].id, users.users[i].firstName, users.users[i].lastName, users.users[i].age,users.users[i].gender, users.users[i].email, users.users[i].username)
                 let table = document.getElementById("myTable");
                 let tbody = table.getElementsByTagName("tbody")[0];
-
                 var row = tbody.insertRow(i);
     
                 // Insert cell for the name
